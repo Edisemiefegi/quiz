@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- start section -->
+    <section class="container start-section">
+        <div class="start">
+            <h1>Hi<span>Quiz</span></h1>
+            <div class="inp">
+                <input type="text" placeholder="Enter username" id="username" class="require">
+                <p class="error hide">abeg enter username!</p>
+    
+            </div>
+            <button id="startbtn" class="btn">Start Quiz</button>
+            <!-- <button href="" id="link1">View leader board</button>     -->
+        </div>
+
+        <div class="layout">
+            <div class="block1"> </div>
+            <div class="block2"></div>
+        </div>
+    </section>
+
+
+
+<!-- question section -->
+    <section class="container hide question-section">
+        <div class="question">
+
+            <div class="nav">
+                <h1>Hi<span>Quiz</span></h1>
+                <h1 class="name">John Doe</h1>
+            </div>
+
+            <div class="quest">
+                <p>Question <span class="current-question">0 </span> / <span class="question-length">0</span>  </p>
+                <button id="quitbtn" class="btn">Quit</button>
+            </div>
+
+            <div class="main">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta aspernatur exercitationem earum iste nam illo vitae laborum quae animi!</p>
+            </div>
+
+            <div class="answer">
+                <div class="button-ans">
+                    <button class="btn ans " >A</button> <span  id="A">answe1</span>
+                </div>
+                <div class="button-ans">
+                    <button class="btn ans ">B</button> <span  id="B">answe2</span>
+                </div>
+                <div class="button-ans">
+                    <button class="btn ans ">C</button> <span  id="C">answe3</span>
+                </div>
+                <div class="button-ans">
+                    <button class="btn ans " >D</button> <span id="D">answe4</span>
+                </div>
+            </div>
+            
+            <hr>
+            <div class="button-pn">
+                <button class="btn pre" id="previous">Previous</button>
+                <button class="btn next" id="nxt">Next</button>
+            </div>
+
+        </div>
+
+        <div class="layout">
+            <div class="block1"> </div>
+            <div class="block2"></div>
+        </div>
+    </section>
+
+
+    <!-- submit section -->
+<section class="container hide submit-section">
+<div class="submit">
+    <h1>Your Quiz has been submitted</h1>
+    <button class="btn" id="backtostart">view your score</button>
+</div>
+
+
+<div class="layout">
+    <div class="block1"> </div>
+    <div class="block2"></div>
+</div>
+
+</section>
+
+
+<!-- leader board -->
+<section class="container  leader-section hide">
+    <div class="leader-container">
+        <h1>Hi<span>Quiz</span></h1>
+
+        <div class="leader-board">
+    
+            <div class="personal-board">
+                <h3>Helo, <span class="sname">John</span></h3>
+                <p>See your result below</p>
+                <div class="box">
+                    <div class="box1">
+                        <p>You score</p>
+                        <h1 class="score">0</h1>
+
+                    </div>
+                    <div class="box1">
+                        <p>Correct Answer</p>
+                        <p class="correctans">2</p>
+
+                    </div>
+                    <div class="box1">
+                        <p>Wrong answer</p>
+                        <p class="wrongans">4</p>
+                    </div>
+    
+                </div>
+                <button class="btn" id="leaderbtn">Retake quiz</button>
+            </div>
+
+            <div class="line"></div>
+    
+    
+        </div>
+        
+    </div>
+
+    <div class="layout">
+        <div class="block1"> </div>
+        <div class="block2"></div>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
